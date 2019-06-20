@@ -1908,6 +1908,49 @@ body {
 .cid-rrFChDt0f2 H2 {
   text-align: left;
 }
+.cid-rtWJRtea7k {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rtWJRtea7k .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rtWJRtea7k .step {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  border-radius: 50%;
+  border: 2px solid #efefef;
+}
+@media (max-width: 767px) {
+  .cid-rtWJRtea7k .step {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+}
+.cid-rtWJRtea7k .separline {
+  position: relative;
+}
+.cid-rtWJRtea7k .separline:after {
+  top: 68px;
+  left: 30px;
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: calc(100% - (32px + 4px) * 2);
+  background-color: #efefef;
+}
+@media (max-width: 767px) {
+  .cid-rtWJRtea7k .separline:after {
+    top: 52px;
+    left: 22px;
+    height: calc(100% - 56px);
+  }
+}
 .cid-rrFCulae0u {
   padding-top: 90px;
   padding-bottom: 90px;
